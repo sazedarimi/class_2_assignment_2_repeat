@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+header{
+    box-shadow: 0 5px 20px #e0d3dedb;
+    padding: 10px;
+}
+
+.container_full{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+nav{
+    width: 80%;
+    float: left;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+} 
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #3b506c;
+    padding: 5px 24px;
+}
+
+nav ul li a:hover{
+    color: #0c66ff;
+    border-bottom: 2px solid #f74040;
+}
+
+
+
+
+
+
+.topic{
+    padding: 50px 0;
+    text-align: center;
+}
+.topic h1{
+    color: #3b506c;
+    margin: 0 auto;
+    font-size: 60px;
+    max-width: 700px;
+    
+}
+.topic h1 span{
+    color: #008aff;
+     font-size: 55px;
+     text-transform: capitalize;
+}
+.topic P{
+    margin: 0;
+    color: #3b506c;
+    font-size: 20px;
+}
+.banner{
+    width: 650px;
+    margin: 0 auto;
+}
+.banner img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+.feature{
+    padding: 100px 0;
+}
+.number{
+    padding: 25px;
+    width: 40%;
+    float: left;
+}
+.align{
+    text-align: right;
+}
+.align p{
+    font-size: 15px;
+    margin: 0;
+    color: #a8a4a2;
+}
+.align span{
+    color: #f15464;
+}
+
+.number h2{ 
+    color: #3b506c;
+    font-size: 60px;
+    margin: 0;
+
+}
+
+.col{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.blog-section{
+    padding: 100px 0;
+}
+.blog{
+    
+    padding: 40px;
+    box-shadow: 0 10px 20px #e0d3dedb;
+}
+
+.blog img{
+    width: 200px;
+    height: 300px;
+}
+.blog img:hover{
+    transform: scale(1.6);
+    transition: 0.6s ease;
+}
+.blog h3{
+    color: #3b506c;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.blog p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #3b506c;
+    font-size: 18px;
+    margin: 0;
+}
+.red{
+    background-color: #FDEBED;
+    
+}
+.green{
+    background-color: #EBF9F4;
+    
+}
+.yellow{
+    background-color: #FFF7E8;
+    
+}
